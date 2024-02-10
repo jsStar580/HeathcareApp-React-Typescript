@@ -1,0 +1,6 @@
+.footer {
+  @apply h-[128px] bg-dark-500 flex justify-center items-center;
+  .footer-content {
+    @apply w-[1280px] px-[160px] mx-auto;
+  }
+}

@@ -1,0 +1,11 @@
+.home-page {
+  @apply relative;
+  .home-top-left-image {
+    @apply w-[540px] h-[316px] min-w-[540px] bg-cover;
+    background-image: url("/image/d01.png");
+  }
+
+  .upscroll {
+    @apply fixed top-[672px] left-[1456px];
+  }
+}

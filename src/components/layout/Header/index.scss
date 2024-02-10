@@ -1,0 +1,19 @@
+.header {
+  @apply bg-dark-500 flex justify-center sticky top-0 w-full z-10;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  .header-content {
+    @apply w-[1280px] px-[160px] flex justify-between items-center;
+    .header-logo {
+      @apply pt-[16px] pr-[19px] pb-[8px] pl-[16px];
+    }
+    .menu-content {
+      @apply relative flex;
+      .menu-item {
+        @apply py-[8px] pl-[8px] pr-[16px] text-light hover:text-primary-300;
+      }
+      .alarm {
+        @apply absolute top-[7px] left-[320px];
+      }
+    }
+  }
+}
